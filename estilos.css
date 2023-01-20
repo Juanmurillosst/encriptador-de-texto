@@ -1,0 +1,223 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #F3F5FC;
+    min-height: 100%;
+}
+
+.gridcontainer{    
+    width: 95%;
+    max-width: 98%;
+    min-height: 100%;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 10% 25% 25% 35% 5%;
+    grid-template-rows: auto auto auto auto 5% 10%;
+}
+
+.imglogo{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: center;
+  
+ }
+
+.titulocabecera{
+  grid-column: 2/4;
+  grid-row: 2/3;
+  align-self: center;
+}
+
+.main{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin: 0% 0% 45% 0%;
+}
+
+.ingresotexto{
+    border: none;
+    border-radius: 1em;
+    text-transform: lowercase;
+} 
+/*cambio de tipo y color letra en el placeholder*/
+::-webkit-input-placeholder{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 2em;
+        font-weight: bold;
+        color:#0A3871;
+    }
+.minuscula{
+    grid-column: 2/4;
+    grid-row: 4/5;      
+}
+
+.parrafominuscula::before{
+    content: "⚠"; 
+    /*pegar un inicode*/       
+}
+.parrafominuscula{
+    margin-bottom: 0%;
+}
+
+.boton1{
+    grid-column: 2/3;
+    grid-row: 5/6;
+         
+}
+
+.botoncss1{
+    background:#052051; 
+    color: #FFFFFF;
+    border-radius: 1em;
+    width: 80%;
+    height: 100%;
+    border: none;
+    margin-bottom: 0%;   
+}
+
+.botoncss1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.boton2{
+    grid-column: 3/4;
+    grid-row: 5/6; 
+}
+
+.botoncss2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.botoncss2{
+    background:#D8DFE8; 
+    color: #0A3871;
+    border-radius: 1em;
+    border-style: 1px solid #0A3871;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 0%;
+    
+}
+.aside{
+    grid-column: 4/5;
+    grid-row: 2/6;
+    border-radius:2em;
+    border-style: solid #F5F5F5;
+    background: white;
+    width: 100%;
+    justify-self: center;
+}
+
+.divtextoencriptado{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;  
+    
+}
+
+.txtencriptado{
+    border: none;
+    border-radius: 1em;
+
+}
+
+.contieneimgmuneco{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+.imgmuneco{
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.mensajenoencontrado{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    justify-self: center;       
+}
+
+.mensajenoencontrado h2{
+    margin: 0%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mensajenoencontrado p{
+    margin: 0%;
+    font-size: 16px;
+    text-align: center;
+}
+.boton3{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    width: 60%;
+    justify-self: center;
+    margin-bottom:  1.5%;
+}
+
+.btncopiar{
+    background:#052051; 
+    color: #FFFFFF;
+    border-radius: 1em;
+    width: 95%;
+    height: 100%;
+    border: none;
+     /*ocultar la visivilidad de este elemento*/
+    visibility: hidden;    
+}
+
+.btncopiar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mensajeingresetexto p{
+    margin: 0%;
+}
+
+.footer{
+    grid-column: 1/6;
+    grid-row:6/7;
+    background: #DCDCDC;
+}
+
+.footer2{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    justify-self: center;
+    align-self: center;    
+}
+
+.desarrollado{
+    grid-column: 4/5;
+    grid-row: 6/7;
+    justify-self: center;
+    align-self: center;
+    font-size: 1em;
+    align-self: end;
+}
+
+.nombre{    
+     margin: 0%;     
+}
+
+.nombre strong{
+    font-weight: bold;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+    </style>
+    <link rel="stylesheet" href="estilos.css" />
+    <script defer src="js/mainencriptador.js"></script>
+  </head>
+
+  <body>
+    <div class="gridcontainer">
+      <div class="imglogo">
+        <header>
+          <img src="imagenes/Logologo alura 1.png" alt="logo alura" />
+        </header>
+      </div>
+      <div class="titulocabecera">
+        <header>
+          <h1>ENCRIPTADOR DE TEXTO</h1>
+        </header>
+      </div>
+
+      <main class="main">
+        <textarea
+          class="ingresotexto"
+          name="ingresotexto"
+          id="ingresotexto"
+          cols="50"
+          rows="10"
+          requiried
+          placeholder="Ingrese el texto a encriptar o desencriptar"
+        ></textarea>
+      </main>
+
+      <div class="minuscula">
+        <p class="parrafominuscula">
+          Digite el texto con solo minusculas y sin acentos
+        </p>
+      </div>
+
+      <div class="boton1">
+        <input class="botoncss1" id="btn1" type="submit" value="Encriptar!" />
+      </div>
+
+      <div class="boton2">
+        <input class="botoncss2" id="btndesencriptar" type="submit" value="Pegar y Desencriptar!" />
+      </div>
+
+      <aside class="aside"></aside>
+
+      <div class="divtextoencriptado" >
+        <textarea class="txtencriptado" name="txtencriptado" id="txtencriptado" cols="auto" rows="auto"></textarea>              
+      </div>
+
+      <div class="contieneimgmuneco" >
+        <aside>
+          <img
+            class="imgmuneco"
+            src="imagenes/Muñecomuñeco.png"
+            alt="Imagen persona"
+            id="imgmuneco"
+          />
+        </aside>
+      </div>
+
+      <div class="mensajenoencontrado" id="mensajenoencontrado">
+        <h2>Ningun mensaje fue encontrado</h2>
+        <p>Ingrese el texto que desee encriptar o desencriptar</p>
+      </div>
+
+      <div class="boton3">
+        <input class="btncopiar" id="btncopiar"  type="submit" value="Copiar texto">
+      </div>
+
+      <div class="footer">
+
+      </div>
+
+      <div class="footer2">
+        <footer>
+          <img src="imagenes/logoams&s.png" alt="Logo Ams&s" />
+        </footer>
+      </div>
+
+      <div class="desarrollado">
+        <footer>
+          <p class="nombre">
+            Desarrollado por: <strong> Juan Pablo Murillo</strong>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
